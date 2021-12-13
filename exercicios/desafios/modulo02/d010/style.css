@@ -3,6 +3,8 @@
     font-family: 'idroid';
     src: url('fontes/idroid.otf') format('opentype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 720px;
@@ -11,14 +13,14 @@ body {
 }
 h1#titulo-principal{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     letter-spacing: 1px;
-    color: ivory;
+    color: white;
+    text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.466);
 }
 p#para-cabecalho {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 0.8em;
     font-weight: lighter;
     color: snow;
@@ -82,14 +84,6 @@ div#imagem {
    position: relative;
    left: 25%;
 }
-footer {
-    text-align: center;
-    color: rgb(233, 230, 230);
-    font-weight: lighter;
-    background-color: #1B5936;
-    padding: 3px;
-    margin: 0px -535px -20px -100px;
-}
 a {
     color: white;
     text-decoration: none;
@@ -111,8 +105,8 @@ iframe {
 }
 ul.lista {
     font-weight: bold;
-  list-style-type: "✔";  
-  text-decoration: underline;
+  list-style-type: "\2714\0020\0020";  
+  list-style-position: inside;
 }
 div {
     height: 200px;
@@ -143,4 +137,12 @@ div {
 span {
     color: #5f9879;
     font-weight: bold;
+}
+footer {
+    text-align: center;
+    color: rgb(233, 230, 230);
+    font-weight: lighter;
+    background-color: #1B5936;
+    padding: 3px;
+    margin: 0px -535px -20px -100px;
 }
